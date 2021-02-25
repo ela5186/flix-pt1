@@ -148,26 +148,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9rZ-rO-tCp">
-                                    <size key="itemSize" width="175" height="235"/>
+                                    <size key="itemSize" width="206" height="266"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieGridCell" id="b1e-dh-4rm" customClass="MovieGridCell" customModule="flixter" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="235"/>
+                                        <rect key="frame" x="104" y="0.0" width="206" height="266"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Hca-GL-vwA">
-                                            <rect key="frame" x="0.0" y="0.0" width="175" height="235"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="206" height="266"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rMI-kX-lAj">
-                                                    <rect key="frame" x="0.0" y="0.0" width="175" height="235"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="206" height="266"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="175" height="235"/>
+                                        <size key="customSize" width="206" height="266"/>
                                         <connections>
                                             <outlet property="posterView" destination="rMI-kX-lAj" id="9gi-8O-CgQ"/>
                                         </connections>
